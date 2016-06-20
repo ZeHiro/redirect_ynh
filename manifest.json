@@ -8,6 +8,9 @@
     "developer": {
         "name": "scith"
     },
+    "services": [
+	"nginx"
+   ],
     "multi_instance": "true",
     "arguments": {
         "install" : [
@@ -45,7 +48,7 @@
                     "fr": "Choisissez le chemin qui sera redirigé (URL, port, ...)"
                 },
                 "example": "http://127.0.0.1:5050/app/",
-				"default": "http://127.0.0.1/"
+		"default": "http://127.0.0.1/"
             }
         ]
     }
