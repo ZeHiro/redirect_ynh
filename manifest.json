@@ -11,6 +11,7 @@
     "services": [
 	"nginx"
    ],
+   "licence": "free" ,
     "multi_instance": "true",
     "arguments": {
         "install" : [
