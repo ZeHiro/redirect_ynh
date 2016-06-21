@@ -1,1 +1,2 @@
 #!/bin/bash
+APP=$YNH_APP_INSTANCE_NAME
