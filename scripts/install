@@ -1,5 +1,5 @@
 #!/bin/bash
-app=redirect
+app=$YNH_APP_INSTANCE_NAME
 set -e
 
 # Retrieve arguments
