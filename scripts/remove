@@ -1,5 +1,5 @@
 #!/bin/bash
-app=redirect
+app=$YNH_APP_INSTANCE_NAME
 
 # Remove NGINX conf
 domain=$(sudo yunohost app setting $app domain)
