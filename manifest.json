@@ -8,6 +8,9 @@
     "developer": {
         "name": "scith"
     },
+    "requirements": {
+        "yunohost": ">= 2.4"
+    },
     "services": [
 	"nginx"
    ],
