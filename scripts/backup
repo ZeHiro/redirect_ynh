@@ -6,7 +6,7 @@ set -e
 BACKUP_DIR=$1
 
 # The parameter $2 is the id of the app instance ex: strut__2
-APP=$2
+APP=$YNH_APP_INSTANCE_NAME
 
 # retrieve useful param
 domain=$(sudo yunohost app setting ${APP} domain)
